@@ -4,4 +4,5 @@ COPY . .
 RUN hugo
 
 FROM nginx:alpine
-COPY --from=builder /builddir/public/ /www/data/
+COPY --from=builder /builddir/public/ /var/www/
+COPY nginx.conf /etc/nginx/conf.d/default.conf
