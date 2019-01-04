@@ -6,7 +6,7 @@ tags: ["internship"]
 series: ["Internship"]
 categories: ["Internship"]
 toc: true
-summary: "This is an example of adding an intro picture to the post. "
+summary: "I should really write a summary here."
 ---
 ```
 Mission: Building a recommendation system using machine learning
