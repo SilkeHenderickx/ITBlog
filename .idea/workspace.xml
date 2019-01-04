@@ -18,8 +18,8 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="272">
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -319,7 +319,7 @@
       <workItem from="1545767056234" duration="14278000" />
       <workItem from="1546610547506" duration="175000" />
       <workItem from="1546611305974" duration="306000" />
-      <workItem from="1546611902448" duration="6138000" />
+      <workItem from="1546611902448" duration="6767000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore intellij">
       <created>1546608449976</created>
@@ -405,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546634831382</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Google Analytics debugging">
+      <created>1546635714019</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546635714019</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25696000" />
+    <option name="totallyTimeSpent" value="26325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -457,7 +464,8 @@
     <MESSAGE value="edit url" />
     <MESSAGE value="summary" />
     <MESSAGE value="Intro post live" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intro post live" />
+    <MESSAGE value="Google Analytics debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google Analytics debugging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>

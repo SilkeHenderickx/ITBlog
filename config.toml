@@ -1,4 +1,5 @@
 baseURL                   = "http://www.silkehenderickx.be"
+googleAnalytics          = "UA-131455746-1"
 builddrafts                = false
 languageCode               = "en-us"
 canonifyurls               = true
@@ -15,8 +16,6 @@ title                      = "Through the Looking Glass"
 
 pygmentsuseclasses         = true
 
-# analytics
-googleAnalytics          = "UA-131455746-1"
 
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
