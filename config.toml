@@ -15,6 +15,8 @@ title                      = "Through the Looking Glass"
 
 pygmentsuseclasses         = true
 
+# analytics
+googleAnalytics          = "UA-131455746-1"
 
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
@@ -63,5 +65,3 @@ pygmentsuseclasses         = true
   linkedin                 = "//linkedin.com/in/silke-henderickx-a01993123"
   twitter                  = "//twitter.com/HenderickxSilke"
 
-  # analytics
-  googleAnalytics          = "UA-131455746-1"

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="524a323f-e1c7-4fc9-95d5-ca4c5323cfef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/blog/internship/intro.md" afterPath="$PROJECT_DIR$/content/blog/internship/intro.md" />
+      <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
       <change beforePath="$PROJECT_DIR$/themes/AllinOne" afterPath="$PROJECT_DIR$/themes/AllinOne" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.toml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="306">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -65,12 +65,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intro.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/nginx.conf" />
         <option value="$PROJECT_DIR$/Dockerfile-hugo" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/blog/internship/intro.md" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -319,7 +319,7 @@
       <workItem from="1545767056234" duration="14278000" />
       <workItem from="1546610547506" duration="175000" />
       <workItem from="1546611305974" duration="306000" />
-      <workItem from="1546611902448" duration="5330000" />
+      <workItem from="1546611902448" duration="6138000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore intellij">
       <created>1546608449976</created>
@@ -398,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546614449261</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Intro post live">
+      <created>1546634831382</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546634831382</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24888000" />
+    <option name="totallyTimeSpent" value="25696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -449,7 +456,8 @@
     <MESSAGE value="config" />
     <MESSAGE value="edit url" />
     <MESSAGE value="summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="summary" />
+    <MESSAGE value="Intro post live" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intro post live" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -673,22 +681,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
