@@ -1,4 +1,4 @@
-baseURL                   = "http://silkehenderickx.be"
+baseURL                   = "http://www.silkehenderickx.be"
 builddrafts                = false
 languageCode               = "en-us"
 canonifyurls               = true

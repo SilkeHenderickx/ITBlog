@@ -18,8 +18,8 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -317,7 +317,7 @@
       <workItem from="1545767056234" duration="14278000" />
       <workItem from="1546610547506" duration="175000" />
       <workItem from="1546611305974" duration="306000" />
-      <workItem from="1546611902448" duration="657000" />
+      <workItem from="1546611902448" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore intellij">
       <created>1546608449976</created>
@@ -375,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546612199418</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edit url">
+      <created>1546612573611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546612573611</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20215000" />
+    <option name="totallyTimeSpent" value="20846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -424,7 +431,8 @@
     <MESSAGE value="expanded gitingore." />
     <MESSAGE value="docker &amp; travis" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="edit url" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
