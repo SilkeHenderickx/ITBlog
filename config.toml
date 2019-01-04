@@ -1,0 +1,67 @@
+baseURL                   = "https://example.com"
+builddrafts                = false
+languageCode               = "en-us"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = false
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Through the Looking Glass"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Blog"
+    weight                 = -120
+    identifier             = "blog"
+    url                    = "blog/"
+
+
+[params]
+  faviconfile              = "images/favicon/pencil.png"               # from static/
+  avatar                   = "images/me.jpg"             # path to image in static dir e.g img/avatar.png
+  author                   = "Silke Henderickx"
+  description              = ["Through the Looking Glass", "An Adventure in IT"]           # appears in the site header when set to a non-empty string
+  #welcome_head             = "Hello, World!"
+  #welcome_word             = "~ No Day But Today ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "static/images/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "images/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  github                   = "//github.com/SilkeHenderickx"
+  linkedin                 = "//linkedin.com/in/silke-henderickx-a01993123"
+  twitter                  = "//twitter.com/HenderickxSilke"
+
+  # analytics
+  googleAnalytics          = "UA-131455746-1"
