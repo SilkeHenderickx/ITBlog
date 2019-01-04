@@ -1,12 +1,12 @@
 ---
 title: "Adventure is out there"
-date: 2018-12-25T22:34:19+01:00
-draft: true
+date: 2019-01-04T21:34:19+01:00
+draft: false
 tags: ["internship"]
 series: ["Internship"]
 categories: ["Internship"]
 toc: true
-summary: "I should really write a summary here."
+summary: "TLDR: Hurray, I'm starting a blog!"
 ---
 ```
 Mission: Building a recommendation system using machine learning
@@ -44,12 +44,14 @@ The second part is actually building a system based on my blueprint, which has t
 the actual system, and documentation in the form of a bachelor thesis.
 
 This brings me to the conclusion of this, my first blog post, and the point of it all. 
-My hope is that the posts that I will be writing here serve two purposes. 
-An addition to my bachelor thesis, highlighting some important steps I took along the way.
-Sharing some of the things that I learned that weren't necessarily taught to me in a classroom, and those seemingly small things that ended up being eye-openers for me when it comes to coding and all things IT.
+My hope is that the posts that I will be writing here serve two purposes:
+
+- An addition to my bachelor thesis, highlighting some important steps I took along the way.
+
+- Sharing some of the things that I learned and am learning that weren't necessarily taught to me in a classroom, and those seemingly small things that ended up being eye-openers for me when it comes to coding and all things IT.
 
 So far, my studies have supplied me with a good base from which to start my career, and now it's time to get going.
 Join me as I venture out into the great unknown.
 <center><font size=+1>
-Internship starting in T-24 days.
+Internship starting in T-31 days.
 </font></center>
