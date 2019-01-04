@@ -1,0 +1,20 @@
+env:
+  global:
+  - COMMIT=${TRAVIS_COMMIT::8}
+  - REPO=silkehenderickx/itblog
+  - CGO_ENABLED=0
+  - GOOS=linux
+  - GOARCH=amd64  
+
+sudo: required
+
+services:
+  - docker
+
+script:
+  - export TAG="latest"
+  - docker build -t itblog -t $REPO:$TAG -f Dockerfile-hugo .
+
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - docker push $REPO

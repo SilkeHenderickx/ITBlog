@@ -1,0 +1,7 @@
+FROM jojomi/hugo as builder
+WORKDIR /builddir
+COPY . .
+RUN hugo
+
+FROM nginx:alpine
+COPY --from=builder /builddir/public/ /www/data/
