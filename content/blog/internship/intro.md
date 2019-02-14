@@ -2,7 +2,7 @@
 title: "Adventure is out there"
 date: 2019-01-04T21:34:19+01:00
 draft: false
-tags: ["internship"]
+tags: ["Internship"]
 series: ["Internship"]
 categories: ["Internship"]
 toc: true
