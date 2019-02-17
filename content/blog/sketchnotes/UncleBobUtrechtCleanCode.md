@@ -1,12 +1,13 @@
 ---
-title: "Rabobank & Utrecht JUG present: Clean Coding with Uncle Bob"
-date: 2019-02-10T20:28:50+01:00
-draft: true
-tags: ["Sketchnotes", "Uncle Bob", "Brian Vermeer", "Clean Code"]
+title: "Sketchnotes of Rabobank & Utrecht JUG present: Clean Coding with Uncle Bob"
+date: 2019-02-17T09:28:50+01:00
+draft: false
+tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob", "Brian Vermeer", "Rosanne Joosten", "Clean Code"]
 series: ["Sketchnotes"]
 categories: ["Sketchnotes"]
+img: "/images/UncleBob/Title.jpg"
 toc: true
-summary: ""
+summary: " "
 ---
 
 During the two-day meetup I made sketchnotes of each of Uncle Bob's sessions, as well as the breakout sessions.
@@ -14,47 +15,68 @@ Below you can find all of them in chronological order, unaltered, along with a l
 Sadly the breakout sessions were not recorded. Where possible I will try and find a recording of the same talk at another meetup or convention.
 Keep in mind that these sessions may have been altered since the recording that I link.
 
-<center><font size=+1>
-Clean Code I: Args (Java)
+**Looking for my notes on Clean Architecture? Find them [here] ( {{< relref "/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" >}})!**
 
-Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
-</font></center>
-
-<center>https://youtu.be/SVRiktFlWxI?t=1783</center>
-
-
-<center><font size=+1>
-Clean Code II: Craftsmanship and Ethics
+<center>
+## Clean Code I: Args (Java)
 
 Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
 
-</font></center>
-<center>https://youtu.be/SVRiktFlWxI?t=9648</center>
+https://youtu.be/SVRiktFlWxI?t=1783
 
-<center><font size=+1>
-Common Mistakes made in Functional Java
+<img src="/images/UncleBob/CleanCode1.jpg"></img>
+
+<img src="/images/UncleBob/CleanCode2.jpg"></img>
+
+<img src="/images/UncleBob/CleanCode3.jpg"></img>
+
+## Clean Code II: Craftsmanship and Ethics
+
+Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
+
+https://youtu.be/SVRiktFlWxI?t=9648
+
+<img src="/images/UncleBob/CleanCode4.jpg"></img>
+
+<img src="/images/UncleBob/CleanCode5.jpg" width="500px"></img>
+
+## Are You a Professional?
+
+Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
+
+https://youtu.be/SVRiktFlWxI?t=19890
+
+<img src="/images/UncleBob/Professional1.jpg"></img>
+
+<img src="/images/UncleBob/Professional2.jpg"></img>
+
+## The Three Laws of Test Driven Development
+
+Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
+
+https://youtu.be/SVRiktFlWxI?t=24396
+
+<img src="/images/UncleBob/TDD.jpg"></img>
+
+# The Breakout Sessions
+
+## Common Mistakes made in Functional Java
 
 Brian Vermeer  [@BrianVerm](https://twitter.com/BrianVerm)
 
-</font></center>
-<center>https://youtu.be/nQ9-QRV_MHM?t=16075</center>
+https://youtu.be/nQ9-QRV_MHM?t=16075
 
-<center><font size=+1>
+**Note: I've not altered the notes, as such they contain errors, like the spelling of the word "lambda" in this one.**
+<img src="/images/UncleBob/CommonMistakes.jpg"></img>
 
-Are You a Professional?
-
-Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
-
-</font></center>
-
-<center>https://youtu.be/SVRiktFlWxI?t=19890</center>
+<br><br>
+**The breakout sessions ran simultaneously, so unfortunately I was unable to attend the following session:**
 
 
-<center><font size=+1>
-The Three Laws of Test Driven Development
+## Me, My Code and I
 
-Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
+Rosanne Joosten  [@JoostenRosanne](https://twitter.com/JoostenRosanne)
 
-</font></center>
+https://www.youtube.com/watch?v=CKqSLEbTkNk&t=3s
+</center>
 
-<center>https://youtu.be/SVRiktFlWxI?t=24396</center>
