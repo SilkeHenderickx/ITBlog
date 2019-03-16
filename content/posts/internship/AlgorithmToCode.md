@@ -6,6 +6,8 @@ tags: ["Machine Learning", "Algorithm", "Python", "TF-IDF"]
 series: ["Internship"]
 categories: ["Internship"]
 toc: true
+aliases:
+    - /blog/2019-03/how-i-translated-a-mathematical-algorithm-into-code-tf-idf-to-python/
 summary: Does your brain short-circuit when you see a mathematical algorithm? Don't worry, you're not alone.
          In this post I will show you how I worked my way through an algorithm, namely TF-IDF, and got it up and running in Python.
 ---

@@ -5,6 +5,8 @@ draft: false
 tags: ["Agile", "Software Development", "Project Management", "MoSCoW", "Iron Cross of Software Engineering"]
 series: ["Internship"]
 categories: ["Internship"]
+aliases:
+    - /blog/2019-02/the-moscow-method/
 toc: true
 summary: "The MoSCoW Method, what does it stand for, what does it mean, why would you use it, and does it have anything to do with that one city in Russia..."
 ---

@@ -5,6 +5,8 @@ draft: false
 tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob", "Brian Vermeer", "Rosanne Joosten", "Clean Code"]
 series: ["Sketchnotes"]
 categories: ["Sketchnotes"]
+aliases:
+    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-coding-with-uncle-bob/
 img: "/images/UncleBob/Title.jpg"
 toc: true
 summary: " "
@@ -15,7 +17,7 @@ Below you can find all of them in chronological order, unaltered, along with a l
 Sadly the breakout sessions were not recorded. Where possible I will try and find a recording of the same talk at another meetup or convention.
 Keep in mind that these sessions may have been altered since the recording that I link.
 
-**Looking for my notes on Clean Architecture? Find them [here] ( {{< relref "/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" >}})!**
+**Looking for my notes on Clean Architecture? Find them [here] ( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md" >}})!**
 
 <center>
 ## Clean Code I: Args (Java)

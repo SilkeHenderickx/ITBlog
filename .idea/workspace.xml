@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524a323f-e1c7-4fc9-95d5-ca4c5323cfef" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Architecture1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Architecture2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Architecture3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Architecture4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Architecture5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CleanCode1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CleanCode2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CleanCode3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CleanCode4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CleanCode5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/CommonMistakes.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/DontHack.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/ModulesMicroservices.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Professional1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Professional2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/TDD.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/images/UncleBob/Title.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/android-chrome-96x96.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/favicon-16x16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/favicon-32x32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/mstile-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/themes/KeepIt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" afterPath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" />
-      <change beforePath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md" afterPath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md" />
+      <change beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
+      <change beforePath="$PROJECT_DIR$/content/blog/internship/AlgorithmToCode.md" afterPath="$PROJECT_DIR$/content/posts/internship/AlgorithmToCode.md" />
+      <change beforePath="$PROJECT_DIR$/content/blog/internship/intro.md" afterPath="$PROJECT_DIR$/content/posts/internship/intro.md" />
+      <change beforePath="$PROJECT_DIR$/content/blog/internship/moscow.md" afterPath="$PROJECT_DIR$/content/posts/internship/moscow.md" />
+      <change beforePath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" afterPath="$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md" />
+      <change beforePath="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md" afterPath="$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanCode.md" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/single.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/images/dice-d20-solid.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/images/favicon/pencil.png" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/themes/AllinOne" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,38 +29,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UncleBobUtrechtCleanCode.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UncleBobUtrechtCleanArchitecture.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="moscow.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/blog/internship/moscow.md">
+        <entry file="file://$PROJECT_DIR$/content/posts/internship/moscow.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="850">
-                <caret line="50" column="129" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="129" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgorithmToCode.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/posts/internship/AlgorithmToCode.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intro.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/posts/internship/intro.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="403">
+                <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="22" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UncleBobUtrechtCleanArchitecture.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UncleBobUtrechtCleanCode.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanCode.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -77,10 +127,18 @@
     <findStrings>
       <find>Jidoka</find>
       <find>have's</find>
+      <find>word_frequency_dict</find>
+      <find>docs_info</find>
+      <find>clean_docs_list</find>
+      <find>docs_containing_word_count_dict</find>
+      <find>temp_dict</find>
+      <find>we can r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -99,15 +157,20 @@
         <option value="$PROJECT_DIR$/nginx.conf" />
         <option value="$PROJECT_DIR$/Dockerfile-hugo" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/blog/internship/intro.md" />
         <option value="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode" />
         <option value="$PROJECT_DIR$/themes/AllinOne/layouts/_default/single.html" />
         <option value="$PROJECT_DIR$/layouts/single.html" />
-        <option value="$PROJECT_DIR$/layouts/_default/single.html" />
         <option value="$PROJECT_DIR$/content/blog/internship/moscow.md" />
         <option value="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md" />
         <option value="$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md" />
+        <option value="$PROJECT_DIR$/content/blog/internship/AlgorithmToCode.md" />
+        <option value="$PROJECT_DIR$/layouts/_default/single.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/posts/internship/AlgorithmToCode.md" />
+        <option value="$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md" />
+        <option value="$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanCode.md" />
+        <option value="$PROJECT_DIR$/content/posts/internship/moscow.md" />
       </list>
     </option>
   </component>
@@ -139,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,36 +220,25 @@
               <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="internship" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="sketchnotes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="_default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -196,50 +250,13 @@
             <path>
               <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="UncleBob" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="AllinOne" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="AllinOne" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="AllinOne" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="_default" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -251,17 +268,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Blog\ITBlog\static" />
+      <recent name="C:\Projects\Blog\ITBlog\static\images\UncleBob" />
+      <recent name="C:\Projects\Blog\ITBlog\layouts\_default" />
+      <recent name="C:\Projects\Blog\ITBlog\content\blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Blog\ITBlog\static" />
       <recent name="C:\Projects\Blog\ITBlog\static\images\scope" />
       <recent name="C:\Projects\Blog\ITBlog\static\images\series-headers" />
       <recent name="C:\Projects\Blog\ITBlog\static\images\favicon" />
       <recent name="C:\Projects\Blog\ITBlog\static\images\header-slides" />
-      <recent name="C:\Projects\Blog\ITBlog\static\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\Blog\ITBlog\static\images\UncleBob" />
-      <recent name="C:\Projects\Blog\ITBlog\layouts\_default" />
-      <recent name="C:\Projects\Blog\ITBlog\content\blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,7 +408,12 @@
       <workItem from="1546611902448" duration="7293000" />
       <workItem from="1549728994705" duration="19401000" />
       <workItem from="1550084321995" duration="11311000" />
-      <workItem from="1550319278664" duration="8624000" />
+      <workItem from="1550319278664" duration="9541000" />
+      <workItem from="1550493940492" duration="1156000" />
+      <workItem from="1550647234229" duration="34000" />
+      <workItem from="1551524328131" duration="13952000" />
+      <workItem from="1551607789515" duration="22326000" />
+      <workItem from="1552737673517" duration="7254000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore intellij">
       <created>1546608449976</created>
@@ -511,29 +534,49 @@
       <option name="project" value="LOCAL" />
       <updated>1550169608703</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="UncleBobUtrecht Sketchnotes Done">
+      <created>1550398838247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550398838247</updated>
+    </task>
+    <task id="LOCAL-00019" summary="AlgorithmToCode First draft">
+      <created>1551556049112</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551556049113</updated>
+    </task>
+    <task id="LOCAL-00020" summary="AlgorithmToCode Done">
+      <created>1552057648281</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552057648281</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66187000" />
+    <option name="totallyTimeSpent" value="111826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.51028275" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33378932" sideWeight="0.52785146" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.48971722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28243244" sideWeight="0.47214854" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17673522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13239075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -547,7 +590,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,33 +611,20 @@
     <MESSAGE value="Disqus added to bottom of each post" />
     <MESSAGE value="disqus" />
     <MESSAGE value="MoSCoW draft&#10;UncleBobUtrechtSketchnotes draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="MoSCoW draft&#10;UncleBobUtrechtSketchnotes draft" />
+    <MESSAGE value="UncleBobUtrecht Sketchnotes Done" />
+    <MESSAGE value="AlgorithmToCode First draft" />
+    <MESSAGE value="AlgorithmToCode Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlgorithmToCode Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,16 +653,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="8" selection-end-column="70" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -643,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="60" lean-forward="false" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,28 +698,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="8" selection-end-column="70" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx.conf" />
-    <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="8" selection-end-column="70" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -704,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="60" lean-forward="true" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,11 +769,6 @@
     <entry file="file://$PROJECT_DIR$/themes/hugo-stellar-theme/static/images/logo.svg" />
     <entry file="file://$PROJECT_DIR$/static/images/icons/logo.svg" />
     <entry file="file://$PROJECT_DIR$/static/images/header-slides/Fish.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/images/favicon/pencil.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/AllinOne/static/img/default.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -780,15 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,15 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,65 +815,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UncleBob/IMG_20190207_090135.jpg" />
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/_default/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
+        <state relative-caret-position="438">
           <caret line="61" column="75" lean-forward="false" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/internship/intro.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="797">
-            <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/internship/moscow.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="850">
-            <caret line="50" column="129" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="129" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/UncleBob/IMG_20190207_090135.jpg">
+    <entry file="file://$PROJECT_DIR$/static/images/me.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanCode.md">
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/sketchnotes/UncleBobUtrechtCleanArchitecture.md">
+    <entry file="file://$PROJECT_DIR$/content/posts/sketchnotes/UncleBobUtrechtCleanCode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/AlgorithmToCode.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/moscow.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/posts/internship/intro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="403">
+            <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

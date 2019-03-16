@@ -6,6 +6,8 @@ tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob","Jan Ouwens","Sander Mak", "Roy 
 series: ["Sketchnotes"]
 categories: ["Sketchnotes"]
 img: "/images/UncleBob/Title.jpg"
+aliases:
+    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-architecture-with-uncle-bob/
 toc: true
 summary: " "
 ---
@@ -15,7 +17,7 @@ Below you can find all of them in chronological order, unaltered, along with a l
 Sadly the breakout sessions were not recorded. Where possible I will try and find a recording of the same talk at another meetup or convention.
 Keep in mind that these sessions may have been altered since the recording that I link.
 
-**Looking for my notes on Clean Code? Find them [here] ( {{< relref "/blog/sketchnotes/UncleBobUtrechtCleanCode.md" >}})!**
+**Looking for my notes on Clean Code? Find them [here] ( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanCode.md" >}})!**
 
 
 <center>

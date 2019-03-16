@@ -1,67 +1,84 @@
 baseURL                    = "http://www.silkehenderickx.be"
+languageCode               = "en"
+defaultContentLanguage     = "en"
+title                      = "Through the Looking Glass"
+theme                      = "KeepIt"
+
+Paginate                   = 12
+enableEmoji                = true
+enableRobotsTXT            = true
 googleAnalytics            = "UA-131455746-1"
 disqusShortname            = "silkehenderickx"
-builddrafts                = false
-languageCode               = "en-us"
-canonifyurls               = true
-contentdir                 = "content"
-layoutdir                  = "layouts"
-publishdir                 = "public"
-enableEmoji                = true
-hasCJKLanguage             = false
-summaryLength              = 200
-Paginate                   = 3
 
-theme                      = "AllinOne"
-title                      = "Through the Looking Glass"
+[sitemap]
+  changefreq                 = "monthly"
+  filename                   = "sitemap.xml"
+  priority                   = 0.5
 
-pygmentsuseclasses         = true
+[blackfriday]
+  hrefTargetBlank            = true
+  nofollowLinks              = true
+  noreferrerLinks            = true
 
 
 [permalinks]
-  blog                     = "blog/:year-:month/:slug/"
-
-
-[taxonomies]
-  tag                      = "tags"
-  series                   = "series"
-  category                 = "categories"
-
+  blog                     = "/:year/:filename/"
 
 [menu]
   [[menu.main]]
     name                   = "Blog"
-    weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"
+    url                    = "/posts/"
+    weight                 = 1
 
+  [[menu.main]]
+    name                   = "Categories"
+    url                    = "/categories/"
+    weight                 = 2
 
 [params]
-  faviconfile              = "images/favicon/pencil.png"               # from static/
-  avatar                   = "images/me.jpg"             # path to image in static dir e.g img/avatar.png
+
+  since                    = 2019
   author                   = "Silke Henderickx"
-  description              = ["Through the Looking Glass", "An Adventure in IT"]           # appears in the site header when set to a non-empty string
-  #welcome_head             = "Hello, World!"
-  #welcome_word             = "~ No Day But Today ~"
+  subtitle                 = "An Adventure in IT"
+  cdn_url                  = ""           # Base CDN URL
+  home_mode                = "" # post or other
+  google_verification      = ""
+  socialShare              = true
 
-  latestpostscount         = 5                             # how many posts to display on the home page
-  bloggroupby              = 'month'
-  dateform                 = "Jan 2, 2006"
-  dateformfull             = "2006-01-02  Monday  15:04:05"
-  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+[params.gravatar]
+  email                    = "silke.henderickx@gmail.com"
 
-  # slides
-  slidesDirPath            = "static/images/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "images/header-slides"    # path to image in static dir (for static pages)
+  description              = "" # site description
+  keywords                 = "" # site keywords
 
-  # highlighting
-  highlightjs              = true
+  license                  = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # latex
-  katex                    = true
 
-  # links
+[params.social]
   github                   = "//github.com/SilkeHenderickx"
   linkedin                 = "//linkedin.com/in/silke-henderickx-a01993123"
   twitter                  = "//twitter.com/HenderickxSilke"
 
+# Used only for Seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name                     = "Silke Henderickx"
+
+  [params.publisher]
+    name                   = "Silke Henderickx"
+
+    [params.publisher.logo]
+      url = "images/me.jpg"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "images/me.jpg"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "images/me.jpg"
+    width = 800
+    height = 600
