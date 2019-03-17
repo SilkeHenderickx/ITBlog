@@ -58,15 +58,20 @@ And here, we finally come to the MoSCoW Method.
 
 There are several methods that can be used to make it easier for your client to choose which requirements can be dropped, and which cannot.
 The MoSCoW method is one of them. 
-Only the consonants are important in this abbreviation, the vowels are purely there for pronunciation's sake. It stands for:
+Only the consonants are important in this abbreviation, the vowels are purely there for pronunciation's sake. 
 
-Must have
+### MoSCoW stands for:
 
-Should have
-
-Could have
-
-Won't/Would have
+<font size=+1>
+<b style="color:DodgerBlue;">
+<ol>
+<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Must have</b></li>
+<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Should have</b></li>
+<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Could have</b></li>
+<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Won't/Would have</b></li>
+</ol>
+</b>
+</font></br>
 
 The Must Haves are those things that the project cannot go without. If you don't get one of those done, you can just as well scrap the entire project.
 The Should Haves are still pretty crucial. However, if you don't get one of these done, it's not the end of the world.

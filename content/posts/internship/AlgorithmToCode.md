@@ -36,14 +36,14 @@ ___
 <li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Combine the chunks to form the complete algorithm</b></li>
 </ol>
 </b>
-<font></br>
+</font></br>
 
 
 ___
 
 </br>
 
-## <b style="color:DodgerBlue;">Translate the Algorithm into Human Terms</b>
+# <b style="color:DodgerBlue;">Translate the Algorithm into Human Terms</b>
 
 The algorithm that I will be using here is **TF-IDF**, which stands for **Term Frequency - Inverse Document Frequency**, and it looks like this:
 
@@ -90,7 +90,7 @@ We can rewrite IDF as:
 > IDF = log ( number of documents / number of documents containing word i)
 
 
-## <b style="color:DodgerBlue;">Split the Algorithm into Bite-sized Chunks</b>
+# <b style="color:DodgerBlue;">Split the Algorithm into Bite-sized Chunks</b>
 
 Now that our algorithm has been translated into human terms, it's time to split it into bite-sized chunks.
 
@@ -117,7 +117,7 @@ can be split into four parts:
 </ul>
 </b>
 
-## <b style="color:DodgerBlue;">Translate Each Chunk into Code</b>
+# <b style="color:DodgerBlue;">Translate Each Chunk into Code</b>
 
 For my PoC I worked with [Pluralsight course data](https://www.pluralsight.com/product/professional-services/white-paper/api). I then cleaned and molded it into the shape that I needed.
 Ending up with a list of courses, containing an Id followed by the document itself:
@@ -235,7 +235,7 @@ def count_docs_containing_word(clean_docs):
 
 ```
 
-## <b style="color:DodgerBlue;">Combine the Chunks to Form the Complete Algorithm</b>
+# <b style="color:DodgerBlue;">Combine the Chunks to Form the Complete Algorithm</b>
 
 Now that we have each separate section prepared, it's time to combine them.
 Let's start by running each function and saving it into a variable.
@@ -406,7 +406,7 @@ I ran the code again, and the run time changed from roughly an hour to 996 ms fo
 
 > However, as tests were not part of this PoC that I was doing, I opted to add written documentation above each of the code blocks.
 
-### <font style="color:DodgerBlue;">Conclusion </font>
+# <font style="color:DodgerBlue;">Conclusion </font>
 
 Safe to say, I learned a lot from working out this Proof of Concept, and even more from making this blog post about it.
 
