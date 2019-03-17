@@ -8,7 +8,7 @@ categories: ["Internship"]
 toc: true
 summary: "TLDR: Hurray, I'm starting a blog!"
 ---
-```python
+```java
 Mission: Building a recommendation system using machine learning
 
 Goal: Turn cv's into courses
