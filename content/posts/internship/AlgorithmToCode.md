@@ -131,10 +131,6 @@ Within the code, this is called 'clean_docs'
 For my PoC I worked with a Jupyter Notebook and used the following imports:
 
 ```python
-from pyspark import SparkConf
-from pyspark import SparkContext
-sc = SparkContext.getOrCreate(SparkConf())
-
 import csv
 import string
 import math

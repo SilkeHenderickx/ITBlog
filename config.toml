@@ -45,6 +45,8 @@ disqusShortname            = "silkehenderickx"
   google_verification      = ""
   socialShare              = true
 
+  custom_css                = ["css/foo.css", "css/bar.css"]
+
 [params.gravatar]
   email                    = "silke.henderickx@gmail.com"
 
@@ -55,9 +57,9 @@ disqusShortname            = "silkehenderickx"
 
 
 [params.social]
-  github                   = "//github.com/SilkeHenderickx"
-  linkedin                 = "//linkedin.com/in/silke-henderickx-a01993123"
-  twitter                  = "//twitter.com/HenderickxSilke"
+  github                   = "SilkeHenderickx"
+  linkedin                 = "silke-henderickx-a01993123"
+  twitter                  = "HenderickxSilke"
 
 # Used only for Seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
