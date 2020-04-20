@@ -24,7 +24,7 @@ After finishing the PoC, I realized that I had actually used a system while work
 ___
 
 <font size=+2>
-**The <b style="color:DodgerBlue;">FOUR</b> Steps of Translating a Mathematical Algorithm into Code:**
+** The <b style="color:DodgerBlue;">FOUR</b> Steps of Translating a Mathematical Algorithm into Code: **
 </font>
 
 </br><font size=+1>
@@ -47,7 +47,7 @@ ___
 
 The algorithm that I will be using here is **TF-IDF**, which stands for **Term Frequency - Inverse Document Frequency**, and it looks like this:
 
-<center><img src="/images/TFIDF/TFIDF.PNG" width="300px" alt="TFIDF Algorithm""></img></center>
+<center><img src="/images/TFIDF/TFIDF.PNG" width="300px" alt="TFIDF Algorithm"></img></center>
 
 *But what does it actually mean?*
 
@@ -66,7 +66,7 @@ That's where the IDF part comes in.
 
 *Now let's translate the algorithm into human terms.*
 
-<img src="/images/TFIDF/TFIDF.PNG" width="200px" alt="TFIDF Algorithm""></img>
+<img src="/images/TFIDF/TFIDF.PNG" width="200px" alt="TFIDF Algorithm"></img>
 
 The first thing we can do is split the algorithm into two parts because: 
 **TF-IDF = TF x IDF**

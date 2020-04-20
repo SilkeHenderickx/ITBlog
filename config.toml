@@ -84,3 +84,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     url = "images/me.jpg"
     width = 800
     height = 600
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
