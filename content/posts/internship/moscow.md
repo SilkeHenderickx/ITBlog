@@ -1,14 +1,30 @@
 ---
 title: "The MoSCoW Method"
+subtitle: ""
 date: 2019-02-14T09:54:42+01:00
 draft: false
+
+author: "Silke Henderickx"
+authorLink: ""
+description: ""
+license: ""
+
 tags: ["Agile", "Software Development", "Project Management", "MoSCoW", "Iron Cross of Software Engineering"]
-series: ["Internship"]
 categories: ["Internship"]
-aliases:
-    - /blog/2019-02/the-moscow-method/
-toc: true
-summary: "The MoSCoW Method, what does it stand for, what does it mean, why would you use it, and does it have anything to do with that one city in Russia..."
+
+toc:
+  enable: true
+  auto: true
+code:
+  copy: true
+  # ...
+  share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
+# summary: "The MoSCoW Method, what does it stand for, what does it mean, why would you use it, and does it have anything to do with that one city in Russia..."
 ---
 
 This week I went to my first ever Tech Meetup!

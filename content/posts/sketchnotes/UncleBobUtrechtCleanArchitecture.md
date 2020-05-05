@@ -1,15 +1,32 @@
 ---
 title: "Sketchnotes of Rabobank & Utrecht JUG present: Clean Architecture with Uncle Bob"
+subtitle: ""
 date: 2019-02-17T09:56:16+01:00
 draft: false
+
+author: "Silke Henderickx"
+authorLink: ""
+description: ""
+license: ""
+
 tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob","Jan Ouwens","Sander Mak", "Roy van Rijn", "Roy Braam", "Clean Architecture", "Clean Code"]
-series: ["Sketchnotes"]
 categories: ["Sketchnotes"]
-img: "/images/UncleBob/Title.jpg"
-aliases:
-    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-architecture-with-uncle-bob/
-toc: true
-summary: " "
+
+featuredImage: "/images/UncleBob/Title.jpg"
+#aliases:
+#    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-architecture-with-uncle-bob/
+toc:
+  enable: false
+  auto: true
+code:
+  copy: true
+  # ...
+  share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
 ---
 
 During the two-day meetup I made sketchnotes of each of Uncle Bob's sessions, as well as the breakout sessions.
@@ -17,7 +34,7 @@ Below you can find all of them in chronological order, unaltered, along with a l
 Sadly the breakout sessions were not recorded. Where possible I will try and find a recording of the same talk at another meetup or convention.
 Keep in mind that these sessions may have been altered since the recording that I link.
 
-**Looking for my notes on Clean Code? Find them [here] ( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanCode.md" >}})!**
+**Looking for my notes on Clean Code? Find them [here]( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanCode.md" >}})**
 
 
 <center>

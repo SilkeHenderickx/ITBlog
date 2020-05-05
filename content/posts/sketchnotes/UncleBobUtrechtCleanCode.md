@@ -1,15 +1,32 @@
 ---
 title: "Sketchnotes of Rabobank & Utrecht JUG present: Clean Coding with Uncle Bob"
+subtitle: ""
 date: 2019-02-17T09:28:50+01:00
 draft: false
+
+author: "Silke Henderickx"
+authorLink: ""
+description: ""
+license: ""
+
 tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob", "Brian Vermeer", "Rosanne Joosten", "Clean Code"]
-series: ["Sketchnotes"]
 categories: ["Sketchnotes"]
-aliases:
-    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-coding-with-uncle-bob/
-img: "/images/UncleBob/Title.jpg"
-toc: true
-summary: " "
+# aliases:
+#    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-coding-with-uncle-bob/
+featuredImage: "/images/UncleBob/Title.jpg"
+toc:
+  enable: false
+  auto: true
+code:
+  copy: true
+  # ...
+  share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
+# summary: " "
 ---
 
 During the two-day meetup I made sketchnotes of each of Uncle Bob's sessions, as well as the breakout sessions.
@@ -17,9 +34,10 @@ Below you can find all of them in chronological order, unaltered, along with a l
 Sadly the breakout sessions were not recorded. Where possible I will try and find a recording of the same talk at another meetup or convention.
 Keep in mind that these sessions may have been altered since the recording that I link.
 
-**Looking for my notes on Clean Architecture? Find them [here] ( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md" >}})!**
+**Looking for my notes on Clean Architecture? Find them [here]( {{< relref "/posts/sketchnotes/UncleBobUtrechtCleanArchitecture.md" >}})!**
 
 <center>
+
 # Clean Code I: Args (Java)
 
 ### Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
@@ -61,6 +79,7 @@ https://youtu.be/SVRiktFlWxI?t=24396
 <img src="/images/UncleBob/TDD.jpg"></img>
 
 </br>
+
 # The Breakout Sessions
 
 # Common Mistakes made in Functional Java
@@ -73,6 +92,7 @@ https://youtu.be/nQ9-QRV_MHM?t=16075
 <img src="/images/UncleBob/CommonMistakes.jpg"></img>
 
 <br><br>
+
 **The breakout sessions ran simultaneously, so unfortunately I was unable to attend the following session:**
 
 

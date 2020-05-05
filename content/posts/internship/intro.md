@@ -1,12 +1,33 @@
 ---
 title: "Adventure is out there"
+subtitle: ""
 date: 2019-01-04T21:34:19+01:00
 draft: false
+
+author: "Silke Henderickx"
+authorLink: ""
+description: ""
+license: ""
+
 tags: ["Internship"]
-series: ["Internship"]
 categories: ["Internship"]
-toc: true
-summary: "TLDR: Hurray, I'm starting a blog!"
+
+featuredImage: ""
+featuredImagePreview: ""
+
+toc:
+  enable: true
+  auto: true
+code:
+  copy: true
+  # ...
+  share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
+# summary: "TLDR: Hurray, I'm starting a blog!"
 ---
 ```java
 Mission: Building a recommendation system using machine learning
@@ -45,7 +66,7 @@ the actual system, and documentation in the form of a bachelor thesis.
 
 This brings me to the conclusion of this, my first blog post, and the point of it all. 
 
-</br>
+
 ### My hope is that the posts that I will be writing here serve two purposes:
 
 <font size=+1>
