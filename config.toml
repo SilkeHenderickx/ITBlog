@@ -2,7 +2,7 @@ baseURL                    = "https://www.silkehenderickx.be"
 languageCode               = "en"
 defaultContentLanguage     = "en"
 title                      = "Through the Looking Glass"
-theme                      = "KeepIt"
+theme                      = "LoveIt"
 
 Paginate                   = 12
 enableEmoji                = true
@@ -26,66 +26,78 @@ disqusShortname            = "silkehenderickx"
 
 [menu]
   [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
     name                   = "Blog"
     url                    = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
     weight                 = 1
 
   [[menu.main]]
-    name                   = "Categories"
-    url                    = "/categories/"
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
     weight                 = 2
 
 [params]
+  # LoveIt theme version
+  version = "0.2.X"
 
-  since                    = 2019
-  author                   = "Silke Henderickx"
-  subtitle                 = "An Adventure in IT"
-  cdn_url                  = ""           # Base CDN URL
-  home_mode                = "" # post or other
-  google_verification      = ""
-  socialShare              = true
+  # since                    = 2019
+  # author                   = "Silke Henderickx"
+  # subtitle                 = "An Adventure in IT"
+  # cdn_url                  = ""           # Base CDN URL
+  # home_mode                = "" # post or other
+  # google_verification      = ""
+  # socialShare              = true
 
-  custom_css                = ["css/foo.css", "css/bar.css"]
+  # custom_css                = ["css/foo.css", "css/bar.css"]
 
-[params.gravatar]
-  email                    = "silke.henderickx@gmail.com"
+# [params.gravatar]
+  # email                    = "silke.henderickx@gmail.com"
 
-  description              = "" # site description
-  keywords                 = "" # site keywords
+  # description              = "" # site description
+  # keywords                 = "" # site keywords
 
-  license                  = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # license                  = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 
 [params.social]
-  github                   = "SilkeHenderickx"
-  linkedin                 = "silke-henderickx-a01993123"
-  twitter                  = "HenderickxSilke"
+  GitHub                    = "SilkeHenderickx"
+  Linkedin                   = "silke-henderickx-a01993123"
+  Twitter                   = "HenderickxSilke"
+
 
 # Used only for Seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
-[author]
-  name                     = "Silke Henderickx"
+# [author]
+#   name                     = "Silke Henderickx"
 
-  [params.publisher]
-    name                   = "Silke Henderickx"
+#   [params.publisher]
+#     name                   = "Silke Henderickx"
 
-    [params.publisher.logo]
-      url = "images/me.jpg"
-      width = 127
-      height = 40
+#     [params.publisher.logo]
+#       url = "images/me.jpg"
+#       width = 127
+#       height = 40
 
-  [params.logo]
-    url = "images/me.jpg"
-    width = 127
-    height = 40
+#   [params.logo]
+#     url = "images/me.jpg"
+#     width = 127
+#     height = 40
 
-  [params.image]
-    url = "images/me.jpg"
-    width = 800
-    height = 600
+#   [params.image]
+#     url = "images/me.jpg"
+#     width = 800
+#     height = 600
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.renderer]
+#       unsafe = true
