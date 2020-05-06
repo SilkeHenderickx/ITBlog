@@ -1,7 +1,7 @@
 baseURL                    = "https://www.silkehenderickx.be"
 languageCode               = "en"
 defaultContentLanguage     = "en"
-title                      = "Through the Looking Glass"
+title                      = "Silke Henderickx"
 theme                      = "LoveIt"
 
 enableEmoji                = true
@@ -40,7 +40,7 @@ enableRobotsTXT            = true
 
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Through the Looking Glass"
+    title = "Silke Henderickx"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -51,27 +51,6 @@ enableRobotsTXT            = true
     iconColor = "#5bbad5"
     # Windows v8-10 tile color
     tileColor = "#da532c"
-
-  [params.search]
-    enable = true
-    # type of search engine ("lunr", "algolia")
-    type = "lunr"
-    # max index length of the chunked content
-    contentLength = 4000
-    # placeholder of the search bar
-    placeholder = ""
-    # max number of results length
-    maxResultLength = 10
-    # snippet length of the result
-    snippetLength = 30
-    # HTML tag name of the highlight part in results
-    highlightTag = "em"
-    # whether to use the absolute URL based on the baseURL in search index
-    absoluteURL = false
-    [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
 
   # Header config
   [params.header]
@@ -84,7 +63,7 @@ enableRobotsTXT            = true
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Through the Looking Glass"
+      name = "Silke Henderickx"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -140,7 +119,7 @@ enableRobotsTXT            = true
       # URL of avatar shown in home page
       avatarURL = "images/me.jpg"
       # title shown in home page
-      title = "Through the Looking Glass"
+      title = "Silke Henderickx"
       # subtitle shown in home page
       subtitle = "An Adventure in IT"
       # whether to use typeit animation for subtitle
