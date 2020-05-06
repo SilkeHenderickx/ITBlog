@@ -1,91 +1,249 @@
 baseURL                    = "https://www.silkehenderickx.be"
 languageCode               = "en"
 defaultContentLanguage     = "en"
-title                      = "Through the Looking Glass"
-theme                      = "KeepIt"
+title                      = "Silke Henderickx"
+theme                      = "LoveIt"
 
-Paginate                   = 12
 enableEmoji                = true
 enableRobotsTXT            = true
-googleAnalytics            = "UA-131455746-1"
-disqusShortname            = "silkehenderickx"
 
-[sitemap]
-  changefreq                 = "monthly"
-  filename                   = "sitemap.xml"
-  priority                   = 0.5
-
-[blackfriday]
-  hrefTargetBlank            = true
-  nofollowLinks              = true
-  noreferrerLinks            = true
-
-
-[permalinks]
-  blog                     = "/:year/:filename/"
 
 [menu]
   [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
     name                   = "Blog"
     url                    = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
     weight                 = 1
 
   [[menu.main]]
-    name                   = "Categories"
-    url                    = "/categories/"
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
     weight                 = 2
 
 [params]
+  # LoveIt theme version
+  version = "0.2.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+  fingerprint = ""
+  # date format
+  dateFormat = "2006-01-02"
 
-  since                    = 2019
-  author                   = "Silke Henderickx"
-  subtitle                 = "An Adventure in IT"
-  cdn_url                  = ""           # Base CDN URL
-  home_mode                = "" # post or other
-  google_verification      = ""
-  socialShare              = true
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "Silke Henderickx"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
 
-  custom_css                = ["css/foo.css", "css/bar.css"]
+  # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Silke Henderickx"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = false
 
-[params.gravatar]
-  email                    = "silke.henderickx@gmail.com"
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = ''
+    # whether to show Hugo and theme info
+    hugo = true
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # Site creation time
+    since = 2019
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  description              = "" # site description
-  keywords                 = "" # site keywords
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
 
-  license                  = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  # Home page config
+  [params.home]
+    # amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "silke.henderickx@gmail.com"
+      # URL of avatar shown in home page
+      avatarURL = "images/me.jpg"
+      # title shown in home page
+      title = "Silke Henderickx"
+      # subtitle shown in home page
+      subtitle = "An Adventure in IT"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
 
 
-[params.social]
-  github                   = "SilkeHenderickx"
-  linkedin                 = "silke-henderickx-a01993123"
-  twitter                  = "HenderickxSilke"
+  [params.social]
+    GitHub                    = "SilkeHenderickx"
+    Linkedin                   = "silke-henderickx-a01993123"
+    Twitter                   = "HenderickxSilke"
 
-# Used only for Seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  # Page config
+  [params.page]
+    # whether to hide a page from home page
+    hiddenFromHomePage = false
+    # whether to hide a page from search results
+    hiddenFromSearch = false
+    # whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = false
+    # whether to enable the ruby extended syntax
+    ruby = true
+    # whether to enable the fraction extended syntax
+    fraction = true
+    # whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # whether to show the full text content in RSS
+    rssFullText = false
 
-[author]
-  name                     = "Silke Henderickx"
+    # Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # whether to make the table of the contents automatically collapsed
+      auto = true
 
-  [params.publisher]
-    name                   = "Silke Henderickx"
+    # Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 100
 
-    [params.publisher.logo]
-      url = "images/me.jpg"
-      width = 127
-      height = 40
+    # social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
 
-  [params.logo]
-    url = "images/me.jpg"
-    width = 127
-    height = 40
+    # Comment config
+    [params.page.comment]
+      enable = true
+      # Disqus comment config
+      [params.page.comment.disqus]
+        enable = false
+        # Disqus shortname to use Disqus in posts
+        shortname = "silkehenderickx"
 
-  [params.image]
-    url = "images/me.jpg"
-    width = 800
-    height = 600
+    # Analytics config
+  [params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = "UA-131455746-1"
+      # whether to anonymize IP
+      anonymizeIP = true
+      # whether to use cookie
+      cookie = false
 
+# Markup related config in Hugo
 [markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    # (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
     [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
       unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author config
+[author]
+  name = "Silke Henderickx"
+  email = ""
+  link = ""
+
+  # Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks config
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"

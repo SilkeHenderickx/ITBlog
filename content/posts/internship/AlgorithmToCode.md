@@ -1,17 +1,39 @@
 ---
 title: "How I Translated a Mathematical Algorithm into Code: TF-IDF to Python"
+subtitle: ""
 date: 2019-03-08T12:02:22+01:00
 draft: false
+
+author: "Silke Henderickx"
+authorLink: ""
+description: ""
+license: ""
+
 tags: ["Machine Learning", "Algorithm", "Python", "TF-IDF"]
-series: ["Internship"]
 categories: ["Internship"]
-toc: true
+
+featuredImage: "/images/TFIDF/TFIDF.PNG"
+featuredImagePreview: "/images/TFIDF/TFIDF.PNG"
+
+toc:
+  enable: true
+  auto: true
+code:
+  copy: true
+  # ...
+share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
 aliases:
     - /blog/2019-03/how-i-translated-a-mathematical-algorithm-into-code-tf-idf-to-python/
-summary: Does your brain short-circuit when you see a mathematical algorithm? Don't worry, you're not alone.
-         In this post I will show you how I worked my way through an algorithm, namely TF-IDF, and got it up and running in Python.
+    - /posts/internship/algorithmtocode/
+description: Does your brain short-circuit when you see a mathematical algorithm? Don't worry, you're not alone.
+          In this post I will show you how I worked my way through an algorithm, namely TF-IDF, and got it up and running in Python.
 ---
-
+<!--more-->
 Does your brain short-circuit when you see a mathematical algorithm? Don't worry, you're not alone.
 
 In this post I will show you how I worked my way through an algorithm, namely TF-IDF, and got it up and running in Python.
@@ -23,17 +45,15 @@ After finishing the PoC, I realized that I had actually used a system while work
 
 ___
 
-<font size=+2>
-** The <b style="color:DodgerBlue;">FOUR</b> Steps of Translating a Mathematical Algorithm into Code: **
-</font>
+## The <b style="color:DodgerBlue;">FOUR</b> Steps of Translating a Mathematical Algorithm into Code:
 
 </br><font size=+1>
-<b style="color:DodgerBlue;">
+<b>
 <ol>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Translate the algorithm into human terms</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Split the algorithm into bite-sized chunks</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Translate each chunk into code</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">Combine the chunks to form the complete algorithm</b></li>
+<li style="padding-left:1em"><b>Translate the algorithm into human terms</b></li>
+<li style="padding-left:1em"><b>Split the algorithm into bite-sized chunks</b></li>
+<li style="padding-left:1em"><b>Translate each chunk into code</b></li>
+<li style="padding-left:1em"><b>Combine the chunks to form the complete algorithm</b></li>
 </ol>
 </b>
 </font></br>
@@ -43,7 +63,7 @@ ___
 
 </br>
 
-# <b style="color:DodgerBlue;">Translate the Algorithm into Human Terms</b>
+## Translate the Algorithm into Human Terms
 
 The algorithm that I will be using here is **TF-IDF**, which stands for **Term Frequency - Inverse Document Frequency**, and it looks like this:
 
@@ -53,7 +73,7 @@ The algorithm that I will be using here is **TF-IDF**, which stands for **Term F
 
 Unless you're a math wizard and are creating your own algorithms, you can find explanations for whichever one you're using with a quick google search. Here's what I found.
 
-<b>To summarize:</b>
+**To summarize:**
 
 The goal of TF-IDF is to calculate the importance of a word in a document.
 
@@ -90,7 +110,7 @@ We can rewrite IDF as:
 > IDF = log ( number of documents / number of documents containing word i)
 
 
-# <b style="color:DodgerBlue;">Split the Algorithm into Bite-sized Chunks</b>
+## Split the Algorithm into Bite-sized Chunks
 
 Now that our algorithm has been translated into human terms, it's time to split it into bite-sized chunks.
 
@@ -108,16 +128,14 @@ AND
 
 can be split into four parts:
 
-<b style="color:DodgerBlue;">
 <ul>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">number of times word i appears in document j</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">number of words in document j</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">number of documents</b></li>
-<li style="padding-left:1em"><b style="color:rgb(60, 60, 60);">number of documents containing word i</b></li>
+<li style="padding-left:1em"><b>number of times word i appears in document j</b></li>
+<li style="padding-left:1em"><b>number of words in document j</b></li>
+<li style="padding-left:1em"><b>number of documents</b></li>
+<li style="padding-left:1em"><b>number of documents containing word i</b></li>
 </ul>
-</b>
 
-# <b style="color:DodgerBlue;">Translate Each Chunk into Code</b>
+## Translate Each Chunk into Code
 
 For my PoC I worked with [Pluralsight course data](https://www.pluralsight.com/product/professional-services/white-paper/api). I then cleaned and molded it into the shape that I needed.
 Ending up with a list of courses, containing an Id followed by the document itself:
@@ -231,7 +249,7 @@ def count_docs_containing_word(clean_docs):
 
 ```
 
-# <b style="color:DodgerBlue;">Combine the Chunks to Form the Complete Algorithm</b>
+## Combine the Chunks to Form the Complete Algorithm
 
 Now that we have each separate section prepared, it's time to combine them.
 Let's start by running each function and saving it into a variable.
@@ -392,17 +410,13 @@ def computeTFIDF(TF, IDF):
 
 I ran the code again, and the run time changed from roughly an hour to 996 ms for that function, resulting in a total run time of about 10 seconds.
 
-> <font size=+1 style="color:DodgerBlue;">Note</font>
+> <font size=+1 style="color:DodgerBlue;">Note</font> <br>
+When having blocks of code that are dependent on each other to function in a certain way, it is important to document it. <br>
+Someone else, or myself at a later point in time, might look at the IDF code and think "This looks weird and can be done much simpler, let's refactor it!"<br>
+The best documentation in this case would be a test that checks whether the TF and IDF lists are the same length and are in the same order. This way, if someone refactors it, it will break the test.<br>
+However, as tests were not part of this PoC that I was doing, I opted to add written documentation above each of the code blocks.
 
-> When having blocks of code that are dependent on each other to function in a certain way, it is important to document it.
-
-> Someone else, or myself at a later point in time, might look at the IDF code and think "This looks weird and can be done much simpler, let's refactor it!"
-
-> The best documentation in this case would be a test that checks whether the TF and IDF lists are the same length and are in the same order. This way, if someone refactors it, it will break the test.
-
-> However, as tests were not part of this PoC that I was doing, I opted to add written documentation above each of the code blocks.
-
-# <font style="color:DodgerBlue;">Conclusion </font>
+## Conclusion
 
 Safe to say, I learned a lot from working out this Proof of Concept, and even more from making this blog post about it.
 
