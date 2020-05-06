@@ -11,6 +11,10 @@ sudo: required
 services:
   - docker
 
+branches:
+  only:
+  - master
+
 script:
   - export TAG="latest"
   - docker build -t itblog -t $REPO:$TAG -f Dockerfile-hugo .
