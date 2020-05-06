@@ -13,6 +13,7 @@ tags: ["Sketchnotes", "UtrechtJUG", "Uncle Bob","Jan Ouwens","Sander Mak", "Roy 
 categories: ["Sketchnotes"]
 
 featuredImage: "/images/UncleBob/Title.jpg"
+featuredImagePreview: "/images/UncleBob/Architecture1.jpg"
 #aliases:
 #    - /blog/2019-02/sketchnotes-of-rabobank-utrecht-jug-present-clean-architecture-with-uncle-bob/
 toc:
@@ -39,7 +40,7 @@ Keep in mind that these sessions may have been altered since the recording that 
 
 <center>
 
-# Architecture: The Real Software Crisis
+## Architecture: The Real Software Crisis
 
 ### Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
 
@@ -50,7 +51,7 @@ https://youtu.be/qnq9syXUuFE?t=3410
 
 <img src="/images/UncleBob/Architecture2.jpg"></img>
 
-# Clean Architecture & Design
+## Clean Architecture & Design
 
 ### Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
 
@@ -59,7 +60,7 @@ https://youtu.be/qnq9syXUuFE?t=7216
 **Note: The first two sessions were switched. Hence, I have the wrong title on there.**
 <img src="/images/UncleBob/Architecture3.jpg"></img>
 
-# Agility & Architecture
+## Agility & Architecture
 
 ### Uncle Bob  [@unclebobmartin](https://twitter.com/unclebobmartin)
 
@@ -72,7 +73,7 @@ https://youtu.be/qnq9syXUuFE?t=21294
 </br>
 # The Breakout Sessions
 
-# Don't hack the platform
+## Don't hack the platform
 
 ### Jan Ouwens  [@jqno](https://twitter.com/jqno)
 
@@ -80,7 +81,7 @@ https://www.youtube.com/watch?v=9AbtsYUBcN4
 
 <img src="/images/UncleBob/DontHack.jpg"></img>
 
-# Modules or Microservices?
+## Modules or Microservices?
 
 ### Sander Mak  [@Sander_Mak](https://twitter.com/Sander_Mak)
 
@@ -92,13 +93,13 @@ https://www.youtube.com/watch?v=tWgT4CJMylQ
 **The breakout sessions ran simultaneously, so unfortunately I was unable to attend the following sessions:**
 
 
-# Fostering an evolving architecture in the agile world
+## Fostering an evolving architecture in the agile world
 
 ### Roy van Rijn  [@royvanrijn](https://twitter.com/royvanrijn)
 
 https://www.youtube.com/watch?time_continue=1&v=hyeULEFi6AY
 
-# End to End test environments, a dead end road
+## End to End test environments, a dead end road
 
 ### Roy Braam  [@rbraam](https://twitter.com/rbraam)
 

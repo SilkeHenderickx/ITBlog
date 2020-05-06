@@ -16,20 +16,21 @@ featuredImage: ""
 featuredImagePreview: ""
 
 toc:
-  enable: true
+  enable: false
   auto: true
 code:
-  copy: true
+  copy: false
   # ...
-  share:
+share:
   enable: true
   # ...
 comment:
   enable: true
   # ...
-# summary: "TLDR: Hurray, I'm starting a blog!"
+description: "TLDR: Hurray, I'm starting a blog!"
 ---
-```java
+<!--more-->
+```
 Mission: Building a recommendation system using machine learning
 
 Goal: Turn cv's into courses

@@ -13,7 +13,7 @@ tags: ["Agile", "Software Development", "Project Management", "MoSCoW", "Iron Cr
 categories: ["Internship"]
 
 toc:
-  enable: true
+  enable: false
   auto: true
 code:
   copy: true
@@ -24,9 +24,9 @@ code:
 comment:
   enable: true
   # ...
-# summary: "The MoSCoW Method, what does it stand for, what does it mean, why would you use it, and does it have anything to do with that one city in Russia..."
+description: "The MoSCoW Method, what does it stand for, what does it mean, why would you use it, and does it have anything to do with that one city in Russia."
 ---
-
+<!--more-->
 This week I went to my first ever Tech Meetup!
 Thanks to Rabobank & Utrecht JUG I got to see Robert C. Martin, also known as Uncle Bob, in action! 
 If you don't know who he is, I highly recommend his book "Clean Code". 
